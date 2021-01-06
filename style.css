@@ -1,0 +1,99 @@
+body html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 2fr 8fr;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+nav {
+    display: grid;
+    grid-row: 1 / 3;
+    grid-column: 1 / 7;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.banner-img {
+    display: block;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+.cube-name {
+    grid-column: 1 / 4;
+}
+
+.page-nav {
+    grid-column: 4 / 6;
+    display: grid;
+}
+
+.table-container {
+    display: grid;
+    grid-row: 3 / 9;
+    grid-column: 1 / 7;
+}
+
+.table-col-1 {
+    display: grid;
+    grid-column: 1 / 2;
+}
+
+.table-col-2 {
+    display: grid;
+    grid-column: 2 / 3;
+}
+
+.table-col-3 {
+    display: grid;
+    grid-column: 3 / 4;
+}
+
+.table-col-4 {
+    display: grid;
+    grid-column: 4 / 5;
+}
+
+.table-col-5 {
+    display: grid;
+    grid-column: 5 / 6;
+}
+
+.table-col-6 {
+    display: grid;
+    grid-column: 6 / 7;
+}
+
+.card-list-head {
+    font-size: 11pt;
+}
+
+.list-header {
+    list-style-type: none;
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+.text-center {
+    text-align: center!important;
+}
